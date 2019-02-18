@@ -45,7 +45,7 @@ class RedisConnect(object):
                                  db=self.db,
                                  password=self.password,
                                  encoding='utf-8',
-                                 decode_responses=True)
+                                 decode_responses=False)
 
 
 class CacheMissException(Exception):
